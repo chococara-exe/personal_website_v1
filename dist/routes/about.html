@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="../../src/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body class="bg-[#0B0F2A]">
+    <div class="header">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="https://drive.google.com/file/d/10U1Gs_l59qYjc7OCoOYF0oPZw0BhxLTT/view?usp=drive_link" target="_blank">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </div>
+
+    <h1 class="title text-right">ABOUT ME</h1>
+
+    <div class="flex justify-center">
+        <div class="block w-[30vw] max-w-[450px] h-[80vh] bg-[#152561] rounded-lg m-4 p-8 min-w-[200px] overflow-y-auto text-center">
+            <label for="strengths" class="title column font-bold">MY STRENGTHS</label>
+            <input type="radio" id="strengths" name="accordion" class="hidden"><br>
+            <div class="content my-3">
+                <ul class="list-none">
+                    <li>Hard working</li>
+                    <li>Creative</li>
+                    <li>Curious</li>
+                    <li>Fast learner</li>
+                </ul>
+            </div>
+            <label for="skills" class="title column font-bold">MY SKILLS</label>
+            <input type="radio" id="skills" name="accordion" class="hidden"><br>
+            <div class="content my-3">
+                <ul class="list-none">
+                    <li>Python</li>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Latte art</li>
+                </ul>
+            </div>
+            <label for="likes" class="title column font-bold">I LIKE</label>
+            <input type="radio" id="likes" name="accordion" class="hidden"><br>
+            <div class="content my-3">
+                <ul class="list-none">
+                    <li>Art</li>
+                    <li>Singing</li>
+                    <li>Baking</li>
+                    <li>Gaming</li>
+                    <li>Anime & Cosplay</li>
+                    <li>Food</li>
+                    <li>DIY</li>
+                    <li>Coding</li>
+                    <li>Friends & Family</li>
+                    <li>Alone time</li>
+                    <li>Travelling</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="w-[60vw] h-[80vh] bg-[#152561] rounded-lg m-4 p-5">
+        <h1 class="title column">GALLERY</h1>
+            <div id="gallery" class="flex flex-wrap overflow-y-auto justify-center">
+                <script>
+                    images = ['me in front of the Alice Smith sign during graduation', 'me with my friends celebrating our graduation', 'me at my prom', 'me dressed up as a character from the anime Kakegurui at an anime convention with a guy dressed as my favourite character Kim Dokja from ORV', "'me and my friends as a cafe celebrating one of my friend's birthday", 'me and my msoc family at a photobooth', 'picture of the plushies I created', 'image of the rat i like to draw everywhere', 'image of a latte art that I drew', 'picture of a lemon pound cake that I baked']
+                    for (let i = 1; i < 11; i++) {
+                        document.getElementById("gallery").innerHTML += "<img src='" + "../lib/images/img" + i + ".jpg' alt='" + images[i-1] + "' class='images'></img>";
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

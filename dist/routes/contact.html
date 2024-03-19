@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="../../src/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body class="bg-tapestry-pink font-Montserrat">
+    <div class="header">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="https://drive.google.com/file/d/10U1Gs_l59qYjc7OCoOYF0oPZw0BhxLTT/view?usp=drive_link" target="_blank">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </div>
+
+    <h1 class="title text-center">CONTACT ME</h1>
+
+    <div class="icons flex flex-row justify-center align-center space-x-[2vw] w-screen p-2">
+        <a href="mailto:yixinchong3010@gmail.com"><img src="../lib/icons/email icon.png" alt="Email address" class="h-[3vw] max-h-[60px] min-h-[30px] object-center inline rounded-sm"></a>
+        <a href="tel:+447751216607"><img src="../lib/icons/phone icon.png" alt="Phone number" class="h-[3vw] max-h-[60px] min-h-[30px] object-center inline"></a>
+        <a href="https://www.instagram.com/yi_x_.n/?hl=en" target="_blank"><img src="../lib/icons/instagram icon.png" alt="Instagram account" class="h-[3vw] max-h-[60px] min-h-[30px] object-center inline"></a>
+    </div>
+
+    <div class="w-screen grid place-items-center p-5 space-y-20">
+        <form id="contact">
+            <label for="email">EMAIL ADDRESS</label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" class="w-[30vw] h-[50px] rounded my-2 text-black" required><br>
+            <label for="message">MESSAGE</label><br>
+            <textarea id="message" name="message" class="w-[30vw] h-[80px] rounded my-2 text-black" required></textarea><br>
+            <input type="submit" value="SUBMIT" class="bg-white text-black font-bold px-5 py-2 rounded">
+        </form>
+    </div>
+</body>
+</html>

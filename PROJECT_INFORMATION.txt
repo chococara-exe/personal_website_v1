@@ -1,0 +1,5 @@
+Programming language used: HTML, CSS, JavaScript 
+Purpose of code: to create a personal website to introduce myself
+Scale of project: lines of code = 277
+Interesting use of data structures:
+- a for loop is used to display all the images inside the gallery section in the About page
